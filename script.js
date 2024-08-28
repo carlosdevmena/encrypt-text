@@ -8,7 +8,7 @@ const copyButton = document.querySelector(".encriptador__button--copy");
 // Inicializa la sección de salida sin el botón de copiar
 outputSection.innerHTML = `
     <div class="encriptador__output-content">
-        <img src="/img/muñeco.svg" alt="Ningún mensaje encontrado" class="encriptador__output-image">
+        <img src="img/muñeco.svg" alt="Ningún mensaje encontrado" class="encriptador__output-image">
         <h2 class="encriptador__output-title">Ningún mensaje fue encontrado</h2>
         <p class="encriptador__output-description">Ingresa el texto que desees encriptar o desencriptar.</p>
     </div>
@@ -51,7 +51,7 @@ function updateOutputSection(text) {
     // Restablece la sección a su estado inicial si no hay texto
     outputSection.innerHTML = `
             <div class="encriptador__output-content">
-                <img src="/img/muñeco.svg" alt="Ningún mensaje encontrado" class="encriptador__output-image">
+                <img src="img/muñeco.svg" alt="Ningún mensaje encontrado" class="encriptador__output-image">
                 <h2 class="encriptador__output-title">Ningún mensaje fue encontrado</h2>
                 <p class="encriptador__output-description">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
@@ -96,7 +96,7 @@ decryptButton.addEventListener("click", () => {
 inputText.addEventListener("input", () => {
   outputSection.innerHTML = `
         <div class="encriptador__output-content">
-            <img src="/img/muñeco.svg" alt="Ningún mensaje encontrado" class="encriptador__output-image">
+            <img src="img/muñeco.svg" alt="Ningún mensaje encontrado" class="encriptador__output-image">
             <h2 class="encriptador__output-title">Ningún mensaje fue encontrado</h2>
             <p class="encriptador__output-description">Ingresa el texto que desees encriptar o desencriptar.</p>
         </div>
