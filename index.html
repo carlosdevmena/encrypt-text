@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="encriptador">
+      <header class="encriptador__header">
+        <img src="/img/logo.svg" alt="Logo" class="encriptador__logo" />
+      </header>
+      <main class="encriptador__main">
+        <section class="encriptador__input-section">
+          <textarea
+            class="encriptador__input"
+            placeholder="Ingrese el texto aqui"
+          ></textarea>
+          <p class="encriptador__warning">
+            <img
+              src="/img/warning-icon.svg"
+              alt="Advertencia"
+              class="encriptador__warning-icon"
+            />
+            Solo letras minúsculas y sin acentos
+          </p>
+          <div class="encriptador__buttons">
+            <button class="encriptador__button encriptador__button--primary">
+              Encriptar
+            </button>
+            <button class="encriptador__button encriptador__button--secondary">
+              Desencriptar
+            </button>
+          </div>
+        </section>
+        <section class="encriptador__output-section">
+          <div class="encriptador__output-content">
+            <img
+              src="/img/muñeco.svg"
+              alt="Ningún mensaje encontrado"
+              class="encriptador__output-image"
+            />
+            <h2 class="encriptador__output-title">
+              Ningún mensaje fue encontrado
+            </h2>
+            <p class="encriptador__output-description">
+              Ingresa el texto que desees encriptar o desencriptar.
+            </p>
+          </div>
+          <button class="encriptador__button encriptador__button--copy">
+            Copiar
+          </button>
+        </section>
+      </main>
+      <footer class="encriptador__footer">
+        <p>Creado por Carlos Palacios - 2024</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
